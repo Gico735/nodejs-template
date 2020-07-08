@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "cross-env NODE_ENV=production babel app --out-dir build --source-maps inline",
+    "dev": "nodemon --exec babel-node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gico735/nodejs-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gico735/nodejs-template/issues"
+  },
+  "homepage": "https://github.com/Gico735/nodejs-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^7.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
