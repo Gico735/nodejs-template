@@ -1,19 +1,25 @@
 {
-  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
-  "env": {
-    "browser": true,
-    "jasmine": true,
-    "jest": true
-  },
+  "parser": "babel-eslint",
   "rules": {
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true,
         "endOfLine": "auto"
       }
     ],
-    "no-shadow": "warn"
+    "no-await-in-loop": "off",
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "no-return-assign": "off",
+    "no-console": "off",
+    "no-restricted-syntax": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": ["warn"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  },
+  "env": {
+    "node": true
   }
 }

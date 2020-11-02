@@ -1,6 +1,6 @@
 {
   "name": "nodejs-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "app/index.js",
   "scripts": {
@@ -23,7 +23,6 @@
     "@babel/polyfill": "^7.10.4"
   },
   "devDependencies": {
-    "webpack": "^4.43.0",
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/node": "^7.10.4",
@@ -35,10 +34,18 @@
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.4.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-import": "^2.22.0",
-    "nodemon": "^2.0.4"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "webpack": "^4.43.0",
+    "webpack-node-externals": "^2.5.2"
   }
 }
